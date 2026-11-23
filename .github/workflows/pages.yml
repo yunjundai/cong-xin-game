@@ -11,29 +11,32 @@ concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install and build web app
+        working-directory: web
+        run: |
+          npm ci
+          npm test -- --run || npx vitest run
+          npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: web/dist
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Restore game package
-        run: |
-          cat release-0.5.5.zip.part-* > site-package.zip
-          echo '9ebd1792dde8e44bb4bba324d095a5a59351d03bf3d12f8fe49d75c864505a92  site-package.zip' | sha256sum -c -
-          unzip -q site-package.zip -d bundle
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: bundle/site
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-
-
-
-
-
-
-

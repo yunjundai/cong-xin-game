@@ -1,0 +1,1571 @@
+{
+  "professions": [
+    {
+      "id": "securityGuard",
+      "name": "保全",
+      "monthlySalary": 3200000,
+      "insurancePremium": 140000,
+      "incomeTax": 0,
+      "housingCost": 650000,
+      "livingCost": 1100000,
+      "startingChildren": 0,
+      "startingCash": 6000000,
+      "startingLiabilities": [
+        {
+          "id": "securityGuard-car",
+          "kind": "carLoan",
+          "balance": 2800000,
+          "monthlyPayment": 110000,
+          "annualInterestRate": 140000
+        }
+      ],
+      "energyBaseline": 7,
+      "childMonthlyCost": 600000
+    },
+    {
+      "id": "restaurantServer",
+      "name": "餐飲服務員",
+      "monthlySalary": 3600000,
+      "insurancePremium": 140000,
+      "incomeTax": 0,
+      "housingCost": 950000,
+      "livingCost": 1600000,
+      "startingChildren": 0,
+      "startingCash": 10000000,
+      "startingLiabilities": [
+        {
+          "id": "restaurantServer-card",
+          "kind": "cardRevolving",
+          "balance": 7000000,
+          "monthlyPayment": 110000,
+          "annualInterestRate": 150000
+        }
+      ],
+      "energyBaseline": 9,
+      "childMonthlyCost": 600000
+    },
+    {
+      "id": "busDriver",
+      "name": "公車司機",
+      "monthlySalary": 4500000,
+      "insurancePremium": 190000,
+      "incomeTax": 40000,
+      "housingCost": 1000000,
+      "livingCost": 1780000,
+      "startingChildren": 1,
+      "startingCash": 15000000,
+      "startingLiabilities": [
+        {
+          "id": "busDriver-car",
+          "kind": "carLoan",
+          "balance": 20000000,
+          "monthlyPayment": 290000,
+          "annualInterestRate": 35000
+        }
+      ],
+      "energyBaseline": 9,
+      "childMonthlyCost": 600000
+    },
+    {
+      "id": "nurse",
+      "name": "護理師",
+      "monthlySalary": 4800000,
+      "insurancePremium": 190000,
+      "incomeTax": 50000,
+      "housingCost": 1200000,
+      "livingCost": 1590000,
+      "startingChildren": 0,
+      "startingCash": 28000000,
+      "startingLiabilities": [
+        {
+          "id": "nurse-student",
+          "kind": "studentLoan",
+          "balance": 15000000,
+          "monthlyPayment": 170000,
+          "annualInterestRate": 18350
+        }
+      ],
+      "energyBaseline": 8,
+      "childMonthlyCost": 1000000
+    },
+    {
+      "id": "elementaryTeacher",
+      "name": "國小教師",
+      "monthlySalary": 5000000,
+      "insurancePremium": 190000,
+      "incomeTax": 60000,
+      "housingCost": 0,
+      "livingCost": 1500000,
+      "startingChildren": 1,
+      "startingCash": 30000000,
+      "startingLiabilities": [
+        {
+          "id": "elementaryTeacher-home",
+          "kind": "homeMortgage",
+          "balance": 350000000,
+          "monthlyPayment": 1350000,
+          "annualInterestRate": 23000
+        }
+      ],
+      "energyBaseline": 11,
+      "childMonthlyCost": 1000000
+    },
+    {
+      "id": "policeOfficer",
+      "name": "警察",
+      "monthlySalary": 5300000,
+      "insurancePremium": 200000,
+      "incomeTax": 80000,
+      "housingCost": 950000,
+      "livingCost": 1730000,
+      "startingChildren": 0,
+      "startingCash": 32000000,
+      "startingLiabilities": [
+        {
+          "id": "policeOfficer-car",
+          "kind": "carLoan",
+          "balance": 48000000,
+          "monthlyPayment": 340000,
+          "annualInterestRate": 35000
+        }
+      ],
+      "energyBaseline": 7,
+      "childMonthlyCost": 1000000
+    },
+    {
+      "id": "mechanicalEngineer",
+      "name": "機械工程師",
+      "monthlySalary": 5500000,
+      "insurancePremium": 200000,
+      "incomeTax": 90000,
+      "housingCost": 1300000,
+      "livingCost": 1600000,
+      "startingChildren": 0,
+      "startingCash": 35000000,
+      "startingLiabilities": [
+        {
+          "id": "mechanicalEngineer-student",
+          "kind": "studentLoan",
+          "balance": 18000000,
+          "monthlyPayment": 200000,
+          "annualInterestRate": 18350
+        }
+      ],
+      "energyBaseline": 10,
+      "childMonthlyCost": 1000000
+    },
+    {
+      "id": "softwareEngineer",
+      "name": "軟體工程師",
+      "monthlySalary": 6600000,
+      "insurancePremium": 220000,
+      "incomeTax": 150000,
+      "housingCost": 2000000,
+      "livingCost": 2150000,
+      "startingChildren": 0,
+      "startingCash": 50000000,
+      "startingLiabilities": [
+        {
+          "id": "softwareEngineer-student",
+          "kind": "studentLoan",
+          "balance": 25000000,
+          "monthlyPayment": 280000,
+          "annualInterestRate": 18350
+        }
+      ],
+      "energyBaseline": 9,
+      "childMonthlyCost": 1200000
+    },
+    {
+      "id": "middleManager",
+      "name": "中階主管",
+      "monthlySalary": 7000000,
+      "insurancePremium": 230000,
+      "incomeTax": 170000,
+      "housingCost": 0,
+      "livingCost": 1750000,
+      "startingChildren": 1,
+      "startingCash": 55000000,
+      "startingLiabilities": [
+        {
+          "id": "middleManager-home",
+          "kind": "homeMortgage",
+          "balance": 600000000,
+          "monthlyPayment": 2310000,
+          "annualInterestRate": 23000
+        },
+        {
+          "id": "middleManager-car",
+          "kind": "carLoan",
+          "balance": 48000000,
+          "monthlyPayment": 340000,
+          "annualInterestRate": 35000
+        }
+      ],
+      "energyBaseline": 9,
+      "childMonthlyCost": 1200000
+    },
+    {
+      "id": "lawyer",
+      "name": "律師",
+      "monthlySalary": 8000000,
+      "insurancePremium": 250000,
+      "incomeTax": 230000,
+      "housingCost": 0,
+      "livingCost": 2080000,
+      "startingChildren": 0,
+      "startingCash": 65000000,
+      "startingLiabilities": [
+        {
+          "id": "lawyer-home",
+          "kind": "homeMortgage",
+          "balance": 650000000,
+          "monthlyPayment": 2500000,
+          "annualInterestRate": 23000
+        },
+        {
+          "id": "lawyer-student",
+          "kind": "studentLoan",
+          "balance": 40000000,
+          "monthlyPayment": 440000,
+          "annualInterestRate": 18350
+        }
+      ],
+      "energyBaseline": 8,
+      "childMonthlyCost": 1200000
+    },
+    {
+      "id": "doctor",
+      "name": "醫師",
+      "monthlySalary": 14500000,
+      "insurancePremium": 340000,
+      "incomeTax": 940000,
+      "housingCost": 0,
+      "livingCost": 3500000,
+      "startingChildren": 1,
+      "startingCash": 90000000,
+      "startingLiabilities": [
+        {
+          "id": "doctor-home",
+          "kind": "homeMortgage",
+          "balance": 900000000,
+          "monthlyPayment": 3460000,
+          "annualInterestRate": 23000
+        },
+        {
+          "id": "doctor-student",
+          "kind": "studentLoan",
+          "balance": 50000000,
+          "monthlyPayment": 560000,
+          "annualInterestRate": 18350
+        },
+        {
+          "id": "doctor-car",
+          "kind": "carLoan",
+          "balance": 110000000,
+          "monthlyPayment": 800000,
+          "annualInterestRate": 35000
+        }
+      ],
+      "energyBaseline": 7,
+      "childMonthlyCost": 1500000
+    },
+    {
+      "id": "pilot",
+      "name": "機師",
+      "monthlySalary": 24000000,
+      "insurancePremium": 450000,
+      "incomeTax": 2830000,
+      "housingCost": 0,
+      "livingCost": 5200000,
+      "startingChildren": 2,
+      "startingCash": 110000000,
+      "startingLiabilities": [
+        {
+          "id": "pilot-home",
+          "kind": "homeMortgage",
+          "balance": 1170000000,
+          "monthlyPayment": 4500000,
+          "annualInterestRate": 23000
+        },
+        {
+          "id": "pilot-car",
+          "kind": "carLoan",
+          "balance": 170000000,
+          "monthlyPayment": 1200000,
+          "annualInterestRate": 35000
+        },
+        {
+          "id": "pilot-card",
+          "kind": "cardRevolving",
+          "balance": 24000000,
+          "monthlyPayment": 300000,
+          "annualInterestRate": 150000
+        }
+      ],
+      "energyBaseline": 8,
+      "childMonthlyCost": 1500000
+    }
+  ],
+  "stocks": [
+    {
+      "tickerSymbol": "0050",
+      "companyName": "元大台灣50",
+      "priceRange": [
+        4500,
+        24000
+      ],
+      "startPrice": 6000,
+      "dividendPerShare": 15,
+      "trendPerPayday": 240,
+      "volatilityPerPayday": 300,
+      "tradeUnit": 1000
+    },
+    {
+      "tickerSymbol": "0056",
+      "companyName": "元大高股息",
+      "priceRange": [
+        3000,
+        5000
+      ],
+      "startPrice": 3600,
+      "dividendPerShare": 24,
+      "trendPerPayday": 50,
+      "volatilityPerPayday": 300,
+      "tradeUnit": 1000
+    },
+    {
+      "tickerSymbol": "2330",
+      "companyName": "台積電",
+      "priceRange": [
+        180000,
+        320000
+      ],
+      "startPrice": 230000,
+      "dividendPerShare": 290,
+      "trendPerPayday": 200,
+      "volatilityPerPayday": 800,
+      "tradeUnit": 1000
+    },
+    {
+      "tickerSymbol": "2603",
+      "companyName": "長榮海運",
+      "priceRange": [
+        12000,
+        23500
+      ],
+      "startPrice": 12000,
+      "dividendPerShare": 0,
+      "trendPerPayday": 0,
+      "volatilityPerPayday": 1200,
+      "tradeUnit": 1000
+    },
+    {
+      "tickerSymbol": "2412",
+      "companyName": "中華電信",
+      "priceRange": [
+        11800,
+        14200
+      ],
+      "startPrice": 12500,
+      "dividendPerShare": 38,
+      "trendPerPayday": 0,
+      "volatilityPerPayday": 200,
+      "tradeUnit": 1000
+    }
+  ],
+  "small": [
+    {
+      "id": "claw-machine-arcade",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "夾娃娃機三台",
+      "cost": 6000000,
+      "monthlyCashflow": 233300,
+      "energyCost": 1,
+      "survivalCheck": {
+        "months": 6,
+        "failFaces": 1,
+        "failMode": "closeStore",
+        "salvage": 2000000
+      },
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "rotating-savings-tontine",
+      "kind": "smallDeal",
+      "assetKind": "tontine",
+      "title": "跟一個互助會（標會）",
+      "cost": 0,
+      "monthlyCashflow": -500000,
+      "installmentConversion": {
+        "kind": "fixedMaturity",
+        "months": 12,
+        "payoutAmount": 6300000
+      },
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "vending-machines-two-units",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "自動販賣機兩台（常溫飲料機）",
+      "cost": 20000000,
+      "monthlyCashflow": 1810000,
+      "businessCategory": "vendingMachine",
+      "siteDiceRoll": {
+        "lowSiteMonthlyCashflow": 640000,
+        "highSiteMonthlyCashflow": 2980000
+      },
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "energyCost": 1,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "sublease-whole-floor-rental",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "二房東整層轉租（合法簽約）",
+      "cost": 25000000,
+      "monthlyCashflow": 1100000,
+      "businessCategory": "subletting",
+      "resaleValue": 20000000,
+      "energyCost": 2,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "one-year-time-deposit-500k",
+      "kind": "smallDeal",
+      "assetKind": "timeDeposit",
+      "title": "五十萬元一年期定存",
+      "cost": 50000000,
+      "monthlyCashflow": 71500,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "rotating-savings-tontine-large",
+      "kind": "smallDeal",
+      "assetKind": "tontine",
+      "title": "大會版互助會（標會）",
+      "cost": 0,
+      "monthlyCashflow": -1000000,
+      "installmentConversion": {
+        "kind": "fixedMaturity",
+        "months": 12,
+        "payoutAmount": 12600000
+      },
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "claw-machine-operator-five-slots",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "夾娃娃機台主頂讓（五台位）",
+      "cost": 18000000,
+      "monthlyCashflow": 1000000,
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "energyCost": 1,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "frozen-food-vending-machine",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "冷凍微波食品自動販賣機一台",
+      "cost": 35000000,
+      "monthlyCashflow": 2900000,
+      "businessCategory": "vendingMachine",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "energyCost": 1,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "citizen-solar-power-subscription",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "公民電廠太陽能板認購",
+      "cost": 15000000,
+      "monthlyCashflow": 60000,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "lump-sum-endowment-insurance",
+      "kind": "smallDeal",
+      "assetKind": "endowmentInsurance",
+      "title": "躉繳二年期儲蓄險",
+      "cost": 30000000,
+      "monthlyCashflow": 0,
+      "installmentConversion": {
+        "kind": "fixedMaturity",
+        "months": 24,
+        "payoutAmount": 31580000
+      },
+      "surrenderSchedule": [
+        {
+          "minMonthsRemaining": 12,
+          "payout": 14800000
+        },
+        {
+          "minMonthsRemaining": 0,
+          "payout": 22600000
+        }
+      ],
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "dca-yuanta-taiwan-50-0050",
+      "kind": "smallDeal",
+      "assetKind": "stock",
+      "title": "定期定額元大台灣50（0050）",
+      "cost": 0,
+      "monthlyCashflow": -500000,
+      "tickerSymbol": "0050",
+      "installmentConversion": {
+        "kind": "unknownConversion"
+      },
+      "dollarCostAveraging": {
+        "tickerSymbol": "0050",
+        "monthlyContribution": 500000,
+        "paydaysPerConversion": 4
+      },
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "dca-yuanta-taiwan-50-0050-10k",
+      "kind": "smallDeal",
+      "assetKind": "stock",
+      "title": "定期定額元大台灣50（0050）月扣一萬",
+      "cost": 0,
+      "monthlyCashflow": -1000000,
+      "tickerSymbol": "0050",
+      "installmentConversion": {
+        "kind": "unknownConversion"
+      },
+      "dollarCostAveraging": {
+        "tickerSymbol": "0050",
+        "monthlyContribution": 1000000,
+        "paydaysPerConversion": 4
+      },
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "stock-tip-group-scam",
+      "kind": "smallDeal",
+      "assetKind": "tontine",
+      "title": "老師帶單的飆股群組",
+      "cost": 5000000,
+      "monthlyCashflow": 133300,
+      "installmentConversion": {
+        "kind": "fixedMaturity",
+        "months": 24,
+        "payoutAmount": 0
+      },
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "self-care-morning-run",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "養成晨跑習慣",
+      "cost": 600000,
+      "monthlyCashflow": 0,
+      "careBonus": 1,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "self-care-sleep-reset",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "睡眠作息重開機",
+      "cost": 300000,
+      "monthlyCashflow": 0,
+      "careBonus": 1,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "self-care-health-checkup",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "年度自費健康檢查",
+      "cost": 1500000,
+      "monthlyCashflow": 0,
+      "careBonus": 1,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "online-tutoring-side-gig",
+      "kind": "smallDeal",
+      "assetKind": "activeSideBusiness",
+      "title": "線上升學家教",
+      "cost": 500000,
+      "monthlyCashflow": 1500000,
+      "businessCategory": "onlineTutoring",
+      "energyCost": 3,
+      "buyoutMultiplier": 24,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "handmade-soap-brand",
+      "kind": "smallDeal",
+      "assetKind": "activeSideBusiness",
+      "title": "手工皂自有品牌",
+      "cost": 5000000,
+      "monthlyCashflow": 1200000,
+      "businessCategory": "handmadeSoapBrand",
+      "energyCost": 4,
+      "buyoutMultiplier": 30,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "food-vlog-channel",
+      "kind": "smallDeal",
+      "assetKind": "activeSideBusiness",
+      "title": "美食開箱自媒體頻道",
+      "cost": 2500000,
+      "monthlyCashflow": 1200000,
+      "businessCategory": "foodVlogChannel",
+      "energyCost": 6,
+      "buyoutMultiplier": 36,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "wedding-photography-freelance",
+      "kind": "smallDeal",
+      "assetKind": "activeSideBusiness",
+      "title": "婚禮攝影接案",
+      "cost": 9000000,
+      "monthlyCashflow": 2500000,
+      "businessCategory": "weddingPhotography",
+      "energyCost": 4,
+      "buyoutMultiplier": 24,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "saas-subscription-side-product",
+      "kind": "smallDeal",
+      "assetKind": "activeSideBusiness",
+      "title": "小工具軟體訂閱服務",
+      "cost": 1000000,
+      "monthlyCashflow": 900000,
+      "businessCategory": "saasSubscription",
+      "energyCost": 3,
+      "buyoutMultiplier": 48,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "self-care-morning-run-copy",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "養成晨跑習慣",
+      "cost": 600000,
+      "monthlyCashflow": 0,
+      "careBonus": 1,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "online-course-product",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "把專業做成線上課程",
+      "cost": 10000000,
+      "monthlyCashflow": 900000,
+      "businessCategory": "onlineCourse",
+      "energyCost": 1,
+      "buyoutMultiplier": 24,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "bond-etf-monthly-payout",
+      "kind": "smallDeal",
+      "assetKind": "timeDeposit",
+      "title": "月配息投資級債券ETF",
+      "cost": 60000000,
+      "monthlyCashflow": 300000,
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    },
+    {
+      "id": "mini-taiex-futures-high-leverage",
+      "kind": "smallDeal",
+      "assetKind": "business",
+      "title": "小台指期貨初體驗（高槓桿）",
+      "cost": 10000000,
+      "monthlyCashflow": 0,
+      "immediateDiceSettlement": {
+        "payoutByDieFace": [
+          0,
+          0,
+          0,
+          13000000,
+          13000000,
+          25000000
+        ]
+      },
+      "energyCost": 0,
+      "loanPrincipal": 0,
+      "loanMonthlyPayment": 0,
+      "loanAnnualRate": 0
+    }
+  ],
+  "big": [
+    {
+      "id": "taoyuan-foreclosed-apartment",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "桃園法拍老公寓",
+      "price": 740000000,
+      "downPayment": 148000000,
+      "loanPrincipal": 592000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2000000,
+      "appreciation": "medium",
+      "region": "taoyuan",
+      "buildingType": "oldApartment",
+      "energyCost": 1
+    },
+    {
+      "id": "taichung-beitun-apartment",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "台中北屯急售兩房",
+      "price": 800000000,
+      "downPayment": 160000000,
+      "loanPrincipal": 640000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2800000,
+      "appreciation": "medium",
+      "region": "taichung",
+      "buildingType": "oldApartment",
+      "energyCost": 1
+    },
+    {
+      "id": "taipei-wenshan-old-apartment",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "台北市文山區老公寓三房",
+      "price": 1555000000,
+      "downPayment": 311000000,
+      "loanPrincipal": 1244000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 4500000,
+      "appreciation": "high",
+      "region": "taipei",
+      "buildingType": "oldApartment",
+      "energyCost": 1
+    },
+    {
+      "id": "newtaipei-sanchong-old-apartment",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "新北市三重區老公寓三房",
+      "price": 1219000000,
+      "downPayment": 243800000,
+      "loanPrincipal": 975200000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2800000,
+      "appreciation": "high",
+      "region": "newTaipei",
+      "buildingType": "oldApartment",
+      "energyCost": 1
+    },
+    {
+      "id": "hualien-old-apartment",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "花蓮市區老公寓",
+      "price": 520000000,
+      "downPayment": 104000000,
+      "loanPrincipal": 416000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2300000,
+      "appreciation": "low",
+      "region": "hualien",
+      "buildingType": "oldApartment",
+      "energyCost": 1
+    },
+    {
+      "id": "bubble-tea-franchise",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "手搖飲加盟店",
+      "price": 150000000,
+      "downPayment": 90000000,
+      "loanPrincipal": 60000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 84,
+      "monthlyGrossIncome": 6000000,
+      "appreciation": "low",
+      "businessCategory": "bubbleTeaFranchise",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "closeStore",
+        "salvage": 30000000
+      },
+      "energyCost": 6
+    },
+    {
+      "id": "self-service-laundry",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "自助洗衣店頂讓（單店）",
+      "price": 260000000,
+      "downPayment": 130000000,
+      "loanPrincipal": 130000000,
+      "loanAnnualRate": 30000,
+      "loanMonths": 84,
+      "monthlyGrossIncome": 1500000,
+      "appreciation": "low",
+      "businessCategory": "laundry",
+      "energyCost": 2
+    },
+    {
+      "id": "taitung-guesthouse",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "台東小民宿頂讓",
+      "price": 250000000,
+      "downPayment": 250000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 4500000,
+      "appreciation": "low",
+      "businessCategory": "guesthouse",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 1,
+        "failMode": "closeStore",
+        "salvage": 125000000
+      },
+      "energyCost": 5
+    },
+    {
+      "id": "vending-machine-fleet-six-units",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "title": "自動販賣機台主頂讓（六台）",
+      "price": 65000000,
+      "downPayment": 65000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 3000000,
+      "appreciation": "low",
+      "businessCategory": "vendingMachine",
+      "energyCost": 1
+    },
+    {
+      "id": "kaohsiung-two-bedroom-elevator-condo",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "高雄兩房電梯華廈",
+      "price": 912000000,
+      "downPayment": 182400000,
+      "loanPrincipal": 729600000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2350000,
+      "appreciation": "medium",
+      "region": "kaohsiung",
+      "buildingType": "elevatorBuilding",
+      "energyCost": 1
+    },
+    {
+      "id": "vending-machine-fleet-ten-units",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "title": "自動販賣機台主頂讓（十台）",
+      "price": 108000000,
+      "downPayment": 108000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 5000000,
+      "appreciation": "low",
+      "businessCategory": "vendingMachine",
+      "energyCost": 2
+    },
+    {
+      "id": "convenience-store-franchise",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "連鎖便利商店加盟（請專職店長）",
+      "price": 300000000,
+      "downPayment": 300000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 4000000,
+      "siteDiceRoll": {
+        "lowSiteMonthlyCashflow": 3000000,
+        "highSiteMonthlyCashflow": 5000000
+      },
+      "appreciation": "low",
+      "businessCategory": "convenienceStoreFranchise",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 1,
+        "failMode": "rentHike"
+      },
+      "energyCost": 2
+    },
+    {
+      "id": "vending-machine-fleet-twenty-units",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "title": "自動販賣機大台主頂讓（二十台）",
+      "price": 216000000,
+      "downPayment": 216000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 8000000,
+      "appreciation": "low",
+      "businessCategory": "vendingMachine",
+      "energyCost": 2
+    },
+    {
+      "id": "tainan-two-bedroom-apartment",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "台南兩房公寓",
+      "price": 867000000,
+      "downPayment": 173400000,
+      "loanPrincipal": 693600000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2000000,
+      "appreciation": "medium",
+      "region": "tainan",
+      "buildingType": "oldApartment",
+      "energyCost": 1
+    },
+    {
+      "id": "newtaipei-elevator-condo-newish",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "新北市電梯大樓兩房（次新屋）",
+      "price": 838000000,
+      "downPayment": 167600000,
+      "loanPrincipal": 670400000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 2000000,
+      "appreciation": "medium",
+      "region": "newTaipei",
+      "buildingType": "elevatorBuilding",
+      "energyCost": 1
+    },
+    {
+      "id": "breakfast-food-truck-franchise",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "早餐餐車加盟（廣告喊月賺二十萬）",
+      "price": 153900000,
+      "downPayment": 63900000,
+      "loanPrincipal": 90000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 84,
+      "monthlyGrossIncome": 500000,
+      "appreciation": "low",
+      "businessCategory": "foodTruckFranchise",
+      "energyCost": 8
+    },
+    {
+      "id": "flagship-beverage-store-hired-manager",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 1,
+        "failMode": "closeStore",
+        "salvage": 90000000
+      },
+      "title": "連鎖手搖飲旗艦店（請店長經營）",
+      "price": 300000000,
+      "downPayment": 300000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 11000000,
+      "appreciation": "low",
+      "businessCategory": "bubbleTeaFranchise",
+      "energyCost": 2
+    },
+    {
+      "id": "vending-fleet-premium-twenty",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "自動販賣機黃金點位頂讓（二十台）",
+      "price": 240000000,
+      "downPayment": 240000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 10000000,
+      "appreciation": "low",
+      "businessCategory": "vendingMachine",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "energyCost": 2
+    },
+    {
+      "id": "vending-fleet-premium-twenty-second",
+      "kind": "bigDeal",
+      "assetKind": "business",
+      "title": "自動販賣機黃金點位頂讓（二十台）第二批",
+      "price": 240000000,
+      "downPayment": 240000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 0,
+      "loanMonths": 0,
+      "monthlyGrossIncome": 10000000,
+      "appreciation": "low",
+      "businessCategory": "vendingMachine",
+      "survivalCheck": {
+        "months": 12,
+        "failFaces": 2,
+        "failMode": "rentHike"
+      },
+      "energyCost": 2
+    },
+    {
+      "id": "old-apartment-subdivided-rental",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "老公寓整層隔套收租（四套房）",
+      "price": 1440000000,
+      "downPayment": 480000000,
+      "loanPrincipal": 960000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 4800000,
+      "appreciation": "low",
+      "region": "newTaipei",
+      "buildingType": "subdividedApartment",
+      "energyCost": 3
+    },
+    {
+      "id": "old-apartment-legal-subdivided-rental",
+      "kind": "bigDeal",
+      "assetKind": "realEstate",
+      "title": "老公寓合法隔套收租（有照三套）",
+      "price": 1530000000,
+      "downPayment": 570000000,
+      "loanPrincipal": 960000000,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 4200000,
+      "appreciation": "low",
+      "region": "newTaipei",
+      "buildingType": "oldApartment",
+      "energyCost": 2
+    },
+    {
+      "id": "newtaipei-pre-sale-house",
+      "kind": "bigDeal",
+      "assetKind": "preSaleHouse",
+      "title": "新北二字頭預售屋（紅單轉正式約）",
+      "price": 2000000000,
+      "downPayment": 300000000,
+      "loanPrincipal": 0,
+      "loanAnnualRate": 23000,
+      "loanMonths": 360,
+      "monthlyGrossIncome": 3000000,
+      "appreciation": "high",
+      "region": "newTaipei",
+      "buildingType": "preSaleHouse",
+      "energyCost": 0,
+      "preSaleInstallment": {
+        "signFraction": 1500,
+        "installmentFraction": 200,
+        "paydaysToHandover": 6,
+        "rentGrossIncome": 3000000,
+        "mortgageAnnualRate": 23000,
+        "mortgageMonths": 360,
+        "buildingTypeAfterHandover": "elevatorBuilding"
+      }
+    }
+  ],
+  "doodad": [
+    {
+      "id": "moped-major-service",
+      "kind": "doodad",
+      "title": "機車大保養",
+      "amount": 400000
+    },
+    {
+      "id": "dental-root-canal",
+      "kind": "doodad",
+      "title": "牙科自費根管治療",
+      "amount": 2500000
+    },
+    {
+      "id": "red-envelope-triple",
+      "kind": "doodad",
+      "title": "紅色炸彈三連發",
+      "amount": 660000
+    },
+    {
+      "id": "refrigerator-breakdown",
+      "kind": "doodad",
+      "title": "冰箱壽終正寢",
+      "amount": 2000000
+    },
+    {
+      "id": "pet-hospitalization",
+      "kind": "doodad",
+      "title": "毛小孩住院",
+      "amount": 1800000
+    },
+    {
+      "id": "japan-family-trip",
+      "kind": "doodad",
+      "title": "日本家庭旅遊",
+      "amount": 4500000
+    },
+    {
+      "id": "wedding-announcement",
+      "kind": "doodad",
+      "title": "你要結婚了",
+      "amount": 8800000
+    },
+    {
+      "id": "newborn-arrival",
+      "kind": "doodad",
+      "title": "新生兒報到",
+      "amount": 4000000
+    }
+  ],
+  "market": [
+    {
+      "id": "housing-market-rally",
+      "kind": "realEstateSaleOffer",
+      "title": "資金行情，房市多頭",
+      "eligibleRegions": [
+        "taipei",
+        "newTaipei",
+        "taoyuan",
+        "taichung",
+        "tainan",
+        "kaohsiung"
+      ],
+      "saleMultiplier": 11500
+    },
+    {
+      "id": "shipping-boom-special-dividend",
+      "kind": "shippingStockRally",
+      "title": "航運景氣爆發",
+      "tickerSymbol": "2603",
+      "companyName": "長榮",
+      "specialDividendPerThousandShares": 1500000
+    },
+    {
+      "id": "international-stock-crash",
+      "kind": "stockCrashDipBuy",
+      "title": "國際股災"
+    },
+    {
+      "id": "bubble-tea-market-saturation",
+      "kind": "businessPermanentCashflowCut",
+      "title": "手搖飲市場飽和",
+      "affectedCategories": [
+        "bubbleTeaFranchise"
+      ],
+      "cut": {
+        "kind": "fixedAmount",
+        "monthlyCutAmount": 2000000
+      }
+    },
+    {
+      "id": "unmanned-business-fad-fades",
+      "kind": "businessPermanentCashflowCut",
+      "title": "無人商機退燒",
+      "affectedCategories": [
+        "vendingMachine"
+      ],
+      "cut": {
+        "kind": "percentage",
+        "cutRatio": 2500
+      }
+    },
+    {
+      "id": "urban-renewal-success",
+      "kind": "realEstateSaleOffer",
+      "title": "都更整合成功",
+      "eligibleRegions": [
+        "taipei",
+        "newTaipei"
+      ],
+      "eligibleBuildingTypes": [
+        "oldApartment"
+      ],
+      "saleMultiplier": 16000
+    },
+    {
+      "id": "government-cash-handout",
+      "kind": "universalCashGrant",
+      "title": "政府普發現金",
+      "amountPerSeat": 600000
+    },
+    {
+      "id": "subdivided-rental-reported",
+      "kind": "subdividedRentalFine",
+      "title": "違規隔套被檢舉",
+      "fineAmount": 15000000
+    },
+    {
+      "id": "startup-buyout-frenzy-1",
+      "kind": "sideBusinessBuyoutOffer",
+      "title": "創業圈收購熱"
+    },
+    {
+      "id": "startup-buyout-frenzy-2",
+      "kind": "sideBusinessBuyoutOffer",
+      "title": "創業圈收購熱"
+    },
+    {
+      "id": "platform-rule-overhaul",
+      "kind": "businessPermanentCashflowCut",
+      "title": "平台規則大改",
+      "affectedCategories": [
+        "foodVlogChannel",
+        "saasSubscription",
+        "onlineCourse"
+      ],
+      "cut": {
+        "kind": "percentage",
+        "cutRatio": 2500
+      }
+    },
+    {
+      "id": "digital-asset-maturation",
+      "kind": "sideBusinessMaturation",
+      "title": "數位資產上軌道",
+      "affectedCategories": [
+        "foodVlogChannel",
+        "saasSubscription"
+      ]
+    },
+    {
+      "id": "landlord-raises-rent-on-renewal",
+      "kind": "businessPermanentCashflowCut",
+      "title": "約滿改約，大房東漲租",
+      "affectedCategories": [
+        "subletting"
+      ],
+      "cut": {
+        "kind": "fixedAmount",
+        "monthlyCutAmount": 300000
+      }
+    },
+    {
+      "id": "rate-cut-liquidity-rally",
+      "kind": "rateCutStockRally",
+      "title": "降息資金行情"
+    },
+    {
+      "id": "prime-vending-spot-recalled",
+      "kind": "businessPermanentCashflowCut",
+      "title": "黃金點位被收回",
+      "affectedCategories": [
+        "vendingMachine"
+      ],
+      "cut": {
+        "kind": "percentage",
+        "cutRatio": 2500
+      }
+    }
+  ],
+  "dreams": [
+    {
+      "id": "family-road-trip-and-japan-stay",
+      "title": "帶爸媽環島加日本長住",
+      "cost": 150000000
+    },
+    {
+      "id": "world-tour",
+      "title": "環遊世界一年",
+      "cost": 300000000
+    },
+    {
+      "id": "independent-bookstore",
+      "title": "開一間不為賺錢的獨立書店",
+      "cost": 400000000
+    },
+    {
+      "id": "stray-animal-shelter",
+      "title": "成立流浪動物庇護所",
+      "cost": 500000000
+    },
+    {
+      "id": "rural-children-scholarship",
+      "title": "資助一百名偏鄉學童讀到大學",
+      "cost": 600000000
+    },
+    {
+      "id": "east-coast-ocean-library",
+      "title": "在東海岸蓋一間面海圖書館",
+      "cost": 800000000
+    },
+    {
+      "id": "outlying-island-guesthouse-village",
+      "title": "買下離島民宿村",
+      "cost": 1200000000
+    }
+  ],
+  "investments": [
+    {
+      "id": "bubble-tea-regional-master-franchise",
+      "title": "手搖飲區域總代理",
+      "cost": 600000000,
+      "cashflowDayIncomeIncrease": 40000000
+    },
+    {
+      "id": "taichung-office-urban-redevelopment",
+      "title": "台中商辦都更合建案",
+      "cost": 1200000000,
+      "cashflowDayIncomeIncrease": 80000000
+    },
+    {
+      "id": "rooftop-solar-syndicated-loan",
+      "title": "屋頂太陽能電廠聯貸案",
+      "cost": 800000000,
+      "cashflowDayIncomeIncrease": 50000000
+    },
+    {
+      "id": "pre-ipo-biotech-shares",
+      "title": "上櫃前生技公司老股",
+      "cost": 500000000,
+      "cashflowDayIncomeIncrease": 60000000,
+      "diceThreshold": 4
+    },
+    {
+      "id": "old-building-youth-hostel-brand",
+      "title": "老屋改建青年旅店品牌",
+      "cost": 400000000,
+      "cashflowDayIncomeIncrease": 25000000
+    },
+    {
+      "id": "electric-scooter-battery-swap-network",
+      "title": "電動機車換電站佈建",
+      "cost": 700000000,
+      "cashflowDayIncomeIncrease": 45000000
+    },
+    {
+      "id": "offshore-wind-maintenance-fleet",
+      "title": "離岸風電運維外包船隊",
+      "cost": 900000000,
+      "cashflowDayIncomeIncrease": 58000000
+    },
+    {
+      "id": "smart-micro-fulfillment-center",
+      "title": "新北五股智慧微倉配送中心",
+      "cost": 650000000,
+      "cashflowDayIncomeIncrease": 42000000
+    },
+    {
+      "id": "fitness-studio-regional-license",
+      "title": "連鎖健身工作室區域授權",
+      "cost": 450000000,
+      "cashflowDayIncomeIncrease": 30000000
+    },
+    {
+      "id": "eco-farm-gift-brand",
+      "title": "生態庇護農場伴手禮品牌",
+      "cost": 350000000,
+      "cashflowDayIncomeIncrease": 22000000
+    },
+    {
+      "id": "semiconductor-test-house-stake",
+      "title": "半導體封測小型代工廠入股",
+      "cost": 1000000000,
+      "cashflowDayIncomeIncrease": 65000000
+    },
+    {
+      "id": "heritage-factory-rebrand-consulting",
+      "title": "觀光工廠品牌重塑顧問案",
+      "cost": 300000000,
+      "cashflowDayIncomeIncrease": 20000000
+    },
+    {
+      "id": "cold-chain-delivery-fleet",
+      "title": "冷鏈食品區域配送車隊",
+      "cost": 550000000,
+      "cashflowDayIncomeIncrease": 36000000
+    },
+    {
+      "id": "home-care-service-chain",
+      "title": "民營居家照護服務連鎖",
+      "cost": 850000000,
+      "cashflowDayIncomeIncrease": 55000000
+    },
+    {
+      "id": "community-solar-leasing-platform",
+      "title": "社區型太陽能屋頂租賃平台",
+      "cost": 480000000,
+      "cashflowDayIncomeIncrease": 31000000
+    },
+    {
+      "id": "esports-arena-franchise",
+      "title": "電競場館連鎖加盟",
+      "cost": 380000000,
+      "cashflowDayIncomeIncrease": 24000000
+    }
+  ],
+  "version": "1.0.0",
+  "currency_unit": "NTD_CENT",
+  "source": "https://qianjin-baodao-game.pages.dev/ ; snapshot 2026-09-18",
+  "board": [
+    "opportunity",
+    "payday",
+    "opportunity",
+    "doodad",
+    "opportunity",
+    "market",
+    "opportunity",
+    "charity",
+    "opportunity",
+    "payday",
+    "opportunity",
+    "doodad",
+    "opportunity",
+    "market",
+    "opportunity",
+    "baby",
+    "opportunity",
+    "payday",
+    "opportunity",
+    "doodad",
+    "opportunity",
+    "market",
+    "opportunity",
+    "unpaidLeave"
+  ],
+  "fast_board": [
+    "investment",
+    "cashflowDay",
+    "investment",
+    "dream",
+    "investment",
+    "dream",
+    "investment",
+    "risk",
+    "investment",
+    "dream",
+    "investment",
+    "cashflowDay",
+    "investment",
+    "dream",
+    "investment",
+    "risk",
+    "investment",
+    "dream",
+    "investment",
+    "dream",
+    "investment",
+    "risk",
+    "investment",
+    "dream",
+    "investment",
+    "investment",
+    "investment",
+    "investment"
+  ]
+}
